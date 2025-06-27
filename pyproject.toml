@@ -1,0 +1,14 @@
+[project]
+name = "slint-python-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "slint>=1.11.0a1",
+]
+[tool.briefcase.app.mypysideapp]
+formal_name = "A Cool App"
+description = "The coolest app ever"
+icon = "src/mypysideapp/resources/appicon" # Briecase will choose the right extension depending the os (png,ico,...)
+sources = ['main.py']
