@@ -29,6 +29,7 @@ class MainWindow(slint.loader.ui.main.MainWindow):
 
     @slint.callback(global_name="NavigationViewAdapter")
     def search(self, text):
+        text = text.lower()
         self.NavigationViewAdapter.search_items = slint.ListModel(
             [col for col in self.colors if text in col.text]
         )
