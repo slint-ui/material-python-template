@@ -19,12 +19,12 @@ are possible. We will inform as soon as the component set is read for release.
 We recommend using an IDE for development, along with our [LSP-based IDE integration for `.slint` files](https://github.com/slint-ui/slint/blob/master/tools/lsp/README.md). You can also load this project directly in [Visual Studio Code](https://code.visualstudio.com) and install our [Slint extension](https://marketplace.visualstudio.com/items?itemName=Slint.slint).
 
 1. Install [uv](https://docs.astral.sh/uv/)
-2. Clone this repository
-
-   ```sh
-   git clone https://github.com/slint-ui/material-python-template.git my-project
-   cd my-project
-   ```
+2. Download and extract the [ZIP archive of this repository](https://github.com/slint-ui/material-python-template/archive/refs/heads/master.zip).
+3. Rename the extracted directory and change into it:
+    ```sh
+    mv material-python-template-master my-project
+    cd my-project
+    ```
 
 ## Run your application on desktop
 
