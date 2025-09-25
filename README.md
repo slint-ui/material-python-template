@@ -22,7 +22,7 @@ We recommend using an IDE for development, along with our [LSP-based IDE integra
 2. Clone this repository
 
    ```sh
-   git clone --recurse-submodules https://github.com/slint-ui/material-python-template.git my-project
+   git clone https://github.com/slint-ui/material-python-template.git my-project
    cd my-project
    ```
 
