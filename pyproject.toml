@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "slint>=1.12.0a1",
+    "slint>=1.13.1a1",
 ]
 [tool.briefcase.app.mypysideapp]
 formal_name = "A Cool App"
