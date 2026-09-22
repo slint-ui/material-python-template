@@ -4,7 +4,7 @@ from pathlib import Path
 ui = slint.load_file(
     Path(__file__).parent / "ui" / "main.slint",
     library_paths={
-        "material": Path(__file__).parent / "material-1.0" / "material.slint"
+        "material": Path(__file__).parent / "material-1.1.0" / "material.slint"
     },
 )
 
